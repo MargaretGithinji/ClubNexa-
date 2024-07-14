@@ -5,7 +5,9 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: #242424; */
+  background:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -65,65 +67,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
-.card{
-  border: 1px solid hsl(0,0%,80%);
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px hsla(0,0%,0.10%);
-  padding: 20px;
-  margin: 10px;
-  text-align: center;
-  max-width: 250px;
-  display: inline-block;
-}
-.card .card-image{
-  max-width: 80%;
-  height: auto;
-  border-radius: 10%;
-  margin-bottom: 10px;
-}
-.card .card-title{
-  font-family:  ink free;
-  margin: 0;
-  color: hsla(34, 78%, 91%, 0.842);
-}
-.card .card-text{
-  font-family: Kristen ITC;
-  color: hsla(34, 78%, 91%, 0.842);
-}
-.card .card-image1{
-  max-width: 60%;
-  height: auto;
-  border-radius: 0%;
-  margin-bottom: 10px;
-}
-.card .card-image2{
-  max-width: 75%;
-  height: auto;
-  border-radius: 0%;
-  margin-bottom: 10px;
-}
-.card .card-image3{
-  max-width: 50%;
-  height: auto;
-  border-radius: 0%;
-  margin-bottom: 10px;
-}
-.card .card-image4{
-  max-width: 98%;
-  height: auto;
-  border-radius: 0%;
-  margin-bottom: 10px;
-}
-.card .card-image5{
-  max-width: 53%;
-  height: auto;
-  border-radius: 0%;
-  margin-bottom: 10px;
-}
-.card .card-image6{
-  max-width: 60%;
-  height: auto;
-  border-radius: 0%;
-  margin-bottom: 10px;
 }

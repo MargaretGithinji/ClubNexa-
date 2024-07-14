@@ -5,13 +5,17 @@
 //import Header from './Header.jsx'
 //import Footer from './footer.jsx'
 //import Clubs from './Clubs.jsx'
-import Card from './Card.jsx'
+import Homepage from './components/dashboard/Homepage.jsx';
+import Card from './components/cards/Card.jsx';
+
 function App() {
   
 
   return (
     <>
-    <Card/>
+            <Homepage/>
+      <Card />
+
     
     </>
   );

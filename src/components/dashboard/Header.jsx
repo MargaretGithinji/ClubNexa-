@@ -3,15 +3,22 @@
      
     return(
         <header>
-    <h1>CLUBNEXA</h1>
-     <nav>
-        <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">clubs</a></li>
-            <li><a href="#">sports</a></li>
-        </ul>
-    </nav>
-    <hr></hr>
+    <div className='home' >
+           <div className="navbar">
+        <div clas="icon">
+            <h2 className="logo">Club<span>Nexa</span></h2>
+        </div>
+        <div className="menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="clubs.html">CLUBS</a></li>
+                <li><a href="#">SPORTS</a></li>
+                <li><a href="#">SIGN UP</a></li>
+            </ul>
+        </div>
+                </div>
+                </div>
     </header>
  )
  }

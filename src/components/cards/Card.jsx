@@ -1,11 +1,13 @@
-import chesslogo from './assets/chess logo.jpg'
-import redcrosslogo from './assets/Redcross-logo.png'
-import dramalogo from './assets/Dramaclub-logo.jpg'
-import christianunionlogo from './assets/ChristianUnion-Logo.jpg'
-import ICTclublogo from './assets/Ictclub-logo.png'
-import birdwatchers from './assets/Birdwatchers-logo.jpg'
-import journalismlogo from './assets/Journalism-logo.jpg'
-import peaceclublogo from './assets/PeaceClub-logo.jpeg'
+import "../../styles/card.css"
+
+import chesslogo from '../../assets/chess logo.jpg'
+import redcrosslogo from '../../assets/Redcross-logo.png'
+import dramalogo from '../../assets/Dramaclub-logo.jpg'
+import christianunionlogo from '../../assets/ChristianUnion-Logo.jpg'
+import ICTclublogo from '../../assets/Ictclub-logo.png'
+import birdwatchers from '../../assets/Birdwatchers-logo.jpg'
+import journalismlogo from '../../assets/Journalism-logo.jpg'
+import peaceclublogo from '../../assets/PeaceClub-logo.jpeg'
 
 function Card(){
    return(

@@ -8,6 +8,7 @@
     max-width: 250px;
     display: inline-block;
   }
+  
   .card .card-image{
     max-width: 80%;
     height: auto;
@@ -17,7 +18,8 @@
   .card .card-title{
     font-family:  ink free;
     margin: 0;
-    color: hsla(34, 78%, 91%, 0.842);
+    color: #ffc290;
+    /* color: hsla(34, 78%, 91%, 0.842); */
   }
   .card .card-text{
     font-family: Kristen ITC;
