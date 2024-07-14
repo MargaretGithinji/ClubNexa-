@@ -9,6 +9,7 @@ import Homepage from './components/dashboard/Homepage.jsx';
 import Card from './components/cards/Card.jsx';
 import Header from './components/dashboard/Header.jsx';
 import Signup from './components/pages/SignUp.jsx';
+import Dashboard from './components/dashboard/Dashboard.jsx';
 
 function App() {
   
@@ -18,7 +19,8 @@ function App() {
       {/* <Header />
       <Homepage/> */}
       {/* <Card />     */}
-      <Signup />
+      {/* <Signup /> */}
+      <Dashboard />
     </>
   );
 }
